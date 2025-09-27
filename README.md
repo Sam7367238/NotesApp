@@ -1,1 +1,1 @@
-This is a notes web app.
+This is a notes web app. This time, I learned authentication with Devise and authorization with ActivePolicy.
