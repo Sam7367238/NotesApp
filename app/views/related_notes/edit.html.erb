@@ -1,0 +1,5 @@
+<%= form_with(model: [@note, @related_note]) do |form| %>
+  <%= form.text_area :content %>
+  <br>
+  <%= form.submit %>
+<% end %>
