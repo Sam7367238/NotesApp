@@ -1,0 +1,6 @@
+<div id="<%= dom_id(related_note) %>">
+  <%= related_note.content %> | <%= time_tag related_note.updated_at %>
+  <%= link_to "Edit", edit_note_related_note_path(related_note.note, related_note) %>
+
+  <%= button_to "Destroy", [note, related_note], method: :delete %>
+</div>
