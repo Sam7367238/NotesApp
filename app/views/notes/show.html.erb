@@ -6,3 +6,5 @@
 
   <%= button_to "Destroy this note", @note, method: :delete %>
 </div>
+
+<%= render "related_notes/related_notes", note: @note %>
