@@ -67,7 +67,7 @@ class NotesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def note_params
-      params.expect(note: [ :content ])
+      params.expect(note: [ :content, :user_id ])
     end
 
     def authorize_user
